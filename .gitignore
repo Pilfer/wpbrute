@@ -1,0 +1,16 @@
+# Local database stuff
+**.db
+data/**.*
+!data/.gitkeep
+
+# Test scripts
+sandbox
+dist/*
+dist
+!dist/.gitkeep
+serp-notes.txt
+*.db
+*.sql
+*.sh
+*.yml
+!config-example.yml

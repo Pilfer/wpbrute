@@ -1,0 +1,11 @@
+debug: true
+db: "./sqlite-database-file-if-using-sqlite.db"
+database_config:
+  database: "db-name"
+  username: "db-username"
+  password: "db-password"
+  host: "db-host-name-here.some-cloud.com"
+  port: 1337
+wp_brute_config:
+  http_timeout: 30
+  worker_count: 1000
